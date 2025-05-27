@@ -1,0 +1,38 @@
+    # Python
+    __pycache__/
+    *.pyc
+    *.pyo
+    *.pyd
+    .Python
+
+    # Virtual environment
+    .venv/
+    venv/
+    ENV/
+    env/
+    env.bak/
+    venv.bak/
+
+    # Environment variables
+    .env
+    .env.*
+
+    # IDE-specific
+    .vscode/
+    .idea/
+
+    # Downloaded models (if stored in project and large)
+# Example:
+# gemma-2b-model-cache/
+# logbert_model/
+
+# External repositories
+logbert/
+
+    # Log files generated during testing (if any, besides test.log if you want to keep that)
+    *.log
+    # But if you want to keep test.log, you can add an exception (less common for general logs)
+    # !test.log
+
+    # pytest cache
+    .pytest_cache/
